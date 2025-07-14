@@ -1,15 +1,3 @@
-# URL Shortener Project
-
-This repository contains a full-stack URL Shortener application with separate frontend and backend implementations, along with a reusable logging middleware.
-
-## Project Structure
-
-```
-12208671/
-  backend-test-submission/   # Express.js backend (Node.js, MongoDB)
-  frontend-test-submission/  # React frontend (Vite, Redux, TailwindCSS)
-  logging-middleware/        # Shared logging middleware for both frontend and backend
-```
 
 ---
 
@@ -63,22 +51,3 @@ This repository contains a full-stack URL Shortener application with separate fr
    cd backend-test-submission
    npm install
    npm run dev
-   ```
-2. **Start the frontend:**
-   ```sh
-   cd frontend-test-submission
-   npm install
-   npm run dev
-   ```
-3. **Access the app:**  
-   Open [http://localhost:5173](http://localhost:5173) in your browser.
-
----
-
-## Notes
-
-- All logging is handled via the reusable logging middleware. Do **not** use `console.log` or built-in loggers elsewhere.
-- Make sure MongoDB is running and the connection string is set in your backend `.env`.
-- For more details, see the individual README files in each subdirectory.
-
----
